@@ -61,14 +61,14 @@ export default function Contact() {
       {/* Contact Form Section */}
       <section className="py-20 px-4">
         <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Left Column - Image and Info */}
             <motion.div
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
               variants={slideUp}
-              className="space-y-8"
+              className="space-y-4"
             >
               <h2 className="text-3xl font-serif text-rose-900">HERE'S WHERE IT ALL BEGINS</h2>
               <div className="aspect-[4/5] overflow-hidden rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300">
@@ -102,50 +102,50 @@ export default function Contact() {
               whileInView="visible"
               viewport={{ once: true }}
               variants={slideUp}
-              className="bg-white/80 backdrop-blur-sm p-8 rounded-lg shadow-xl"
+              className="bg-white/80 backdrop-blur-sm p-4 rounded-lg shadow-xl"
             >
-              <p className="text-rose-800 mb-8">Please fill out this form to get in touch or you can email us at hello@lifeandtimesphotography.com</p>
-              <form className="space-y-6">
-                <div className="space-y-4">
+              <p className="text-rose-800 mb-4">Please fill out this form to get in touch or you can email us at hello@lifeandtimesphotography.com</p>
+              <form className="space-y-4">
+                <div className="space-y-2">
                   <input 
                     type="text" 
                     placeholder="First Name*" 
-                    className="w-full px-4 py-3 border-b border-rose-200 bg-transparent focus:outline-none focus:border-rose-500 text-rose-900 placeholder-rose-300"
+                    className="w-full px-4 py-2 border-b border-rose-200 bg-transparent focus:outline-none focus:border-rose-500 text-rose-900 placeholder-rose-300"
                   />
                   <input 
                     type="text" 
                     placeholder="Last Name*" 
-                    className="w-full px-4 py-3 border-b border-rose-200 bg-transparent focus:outline-none focus:border-rose-500 text-rose-900 placeholder-rose-300"
+                    className="w-full px-4 py-2 border-b border-rose-200 bg-transparent focus:outline-none focus:border-rose-500 text-rose-900 placeholder-rose-300"
                   />
                   <input 
                     type="email" 
                     placeholder="Email Address*" 
-                    className="w-full px-4 py-3 border-b border-rose-200 bg-transparent focus:outline-none focus:border-rose-500 text-rose-900 placeholder-rose-300"
+                    className="w-full px-4 py-2 border-b border-rose-200 bg-transparent focus:outline-none focus:border-rose-500 text-rose-900 placeholder-rose-300"
                   />
                   <input 
                     type="text" 
                     placeholder="Event Type*" 
-                    className="w-full px-4 py-3 border-b border-rose-200 bg-transparent focus:outline-none focus:border-rose-500 text-rose-900 placeholder-rose-300"
+                    className="w-full px-4 py-2 border-b border-rose-200 bg-transparent focus:outline-none focus:border-rose-500 text-rose-900 placeholder-rose-300"
                   />
                   <input 
                     type="text" 
                     placeholder="Event Date*" 
-                    className="w-full px-4 py-3 border-b border-rose-200 bg-transparent focus:outline-none focus:border-rose-500 text-rose-900 placeholder-rose-300"
+                    className="w-full px-4 py-2 border-b border-rose-200 bg-transparent focus:outline-none focus:border-rose-500 text-rose-900 placeholder-rose-300"
                   />
                   <input 
                     type="tel" 
                     placeholder="Phone*" 
-                    className="w-full px-4 py-3 border-b border-rose-200 bg-transparent focus:outline-none focus:border-rose-500 text-rose-900 placeholder-rose-300"
+                    className="w-full px-4 py-2 border-b border-rose-200 bg-transparent focus:outline-none focus:border-rose-500 text-rose-900 placeholder-rose-300"
                   />
                   <textarea 
                     placeholder="Message" 
                     rows="4" 
-                    className="w-full px-4 py-3 border-b border-rose-200 bg-transparent focus:outline-none focus:border-rose-500 text-rose-900 placeholder-rose-300"
+                    className="w-full px-4 py-2 border-b border-rose-200 bg-transparent focus:outline-none focus:border-rose-500 text-rose-900 placeholder-rose-300"
                   ></textarea>
                 </div>
                 <button 
                   type="submit"
-                  className="bg-gradient-to-r from-rose-600 to-orange-600 text-white px-8 py-3 rounded-full uppercase tracking-widest text-sm hover:shadow-xl hover:scale-105 transition-all duration-300"
+                  className="bg-gradient-to-r from-rose-600 to-orange-600 text-white px-6 py-2 rounded-full uppercase tracking-widest text-sm hover:shadow-xl hover:scale-105 transition-all duration-300 mb-0"
                 >
                   Let's Begin →
                 </button>
